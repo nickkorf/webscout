@@ -1,0 +1,7 @@
+# Development & testing dependencies
+# Install with: pip install -r requirements-dev.txt
+
+-r requirements.txt     # include all runtime deps
+
+pytest>=7.0.0           # test runner
+pytest-cov>=4.0.0       # coverage reports  (pytest --cov=webscout)

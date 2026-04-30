@@ -1,0 +1,10 @@
+# ── Runtime dependencies ──────────────────────────────────────────────────────
+# Install with: pip install -r requirements.txt
+ 
+requests>=2.31.0        # HTTP client — the core of all scanning
+rich>=13.0.0            # Beautiful terminal output with colour & tables
+ 
+# ── Development & testing ─────────────────────────────────────────────────────
+# Install with: pip install -r requirements-dev.txt
+# (or just pip install -e ".[dev]" if using pyproject.toml)
+ 
