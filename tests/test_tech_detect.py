@@ -12,7 +12,6 @@ def make_mock_response(headers=None, cookies="", body=""):
     """Helper to create a fake requests.Response object."""
     response = MagicMock()
     response.headers = headers or {}
-    response.headers.get = lambda k, default="": (headers or {}).get(k, default)
     response.text = body
     return response
 
